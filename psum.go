@@ -1,7 +1,7 @@
 package float64s
 
 import (
-	"sort"
+	"sort" //@TODO: replace the usage of the "sort" package, with a "sort" func that is optimized for []float64. I.e., implement float64s.Sort([]float64), and then use that.
 )
 
 // PSum is picky about how it does the sum, and does the sum in a way
